@@ -7,7 +7,7 @@
     list-style-type: none;
 }
 .color-discord{
-    color: #8ea1e1;
+    color: #7289da;
 }
 body{
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;;
@@ -16,6 +16,13 @@ body{
     font-size: 30px;
     padding-top: 40px;
     line-height: 40px;
+}
+.onde{
+    width: 100%;
+    margin: -10px 0;
+}
+.onde-rotate{
+    transform: rotate(180deg);
 }
 /* Regole dell'header */
 header{
@@ -26,12 +33,13 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 8%;
 }
 #header-nav{
     height: 100px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     padding-top: 20px;
 }
 #nav{
@@ -45,11 +53,6 @@ header{
     width: 10%;
     padding-left: 5px;
 }
-#nav div{
-    width: 80%;
-    display: flex;
-    justify-content: center;
-}
 #nav ul{
     display: flex;
     gap: 60px;
@@ -59,25 +62,20 @@ li a{
     color: rgb(255, 255, 255);
 }
 .button-form{
-    text-align: center;
     border-radius: 40px;
     background-color: white;
     color: black;
-    width: auto;
     padding: 0 15px;
     font-size: 18px;
 }
 #header-sub-nav{
-    /* background-color: darkblue; */
     height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #header-sub-nav div{
-    /* background-color: #EE82EE; */
     width: 45%;
-    min-height: 250px;
     text-align: center;
     color: white;
     font-size: 30px;
@@ -87,7 +85,6 @@ h1{
     padding-top: 110px;
     padding-bottom: 60px;
 }
-
 #header-sub-button{
     height: 200px;
     display: flex;
@@ -95,16 +92,11 @@ h1{
     align-items: center;
 }
 #button-header{
-    width: 45%;
-    color: white;
     line-height: 80px;
     display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 30px;
-    height: 80px;
 }
-.xxx{
+.big-button{
     font-size: 30px;
     padding: 0 40px;
 }
@@ -113,12 +105,10 @@ h1{
     background-color: rgb(37, 37, 37);
 }
 a i{
-    color: black;
     font-size: 22px;
 }
 /* Regole del main */
 .section-main{
-    background-color: rgb(255, 255, 255);
     height: 1000px;
     display: flex;
     justify-content: center;
@@ -135,13 +125,12 @@ a i{
     height: 130%;
 }
 .little-pink{
-    min-height: 400px;
     width: 21%;
     font-size: 48px;
     padding-top: 80px;
 }
 .section-main-cnt{
-    background-color: #D3D3D3;
+    background-color: #f6f6f6;
     height: 1000px;
     display: flex;
     justify-content: center;
@@ -149,18 +138,16 @@ a i{
     gap: 160px;
 }
 .section-main-down{
-    background-color: #D3D3D3;
+    background-color: #f6f6f6;
     height: 2000px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 48px;
     padding-top: 200px;
 }
 .stars-zone{
-    /* background-color: #228B22; */
     height: 1550px;
     width: 70%;
 }
@@ -169,7 +156,6 @@ a i{
 }
 .container {
     position: relative;
-    text-align: center;
     height: 600px;
     width: 70%;
 }
@@ -183,22 +169,17 @@ a i{
 #stars{
     width: 48%;
 }
-.lol{
-    width: 400px;
+#download-mac{
     position: absolute;
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-#got{
-    width: 100%;
+#download{
     line-height: 80px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80px;
 }
-#got a{
+#download a{
     width: 360px;
     background-color: #8ea1e1;
     color: white;
@@ -211,17 +192,13 @@ a i{
 .section-footer-up{
     background-color: rgb(35, 39, 42);
     height: 950px;
-    
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding-top: 5px;
     padding-top: 150px;
-    flex-basis: auto;
 }
 #footer-section{
     width: 65%;
-    min-height: 320px;
     display: flex;
 }
 #footer-pink{
@@ -242,28 +219,21 @@ h3{
 }
 #footer-pink span{
     font-size: 20px;
-    padding-bottom: 10px;
 }
-#footer-pink i{
-    font-size: 16px;
-} 
 #logos{
     display: flex;
     gap: 40px;
     padding-top: 30px;
 }
 #logos i{
-    color: white;
     font-size: 26px;
 }
 .footer-blue{
     width: 17%;
-    border: 1px dashed white;
     display: flex;
     flex-direction: column;
     font-size: 22px;
     line-height: 50px;
-    
 }
 .footer-blue a{
     color: white;
@@ -279,17 +249,14 @@ a.color-discord{
     align-items: end;
 }
 #footer-down{
-    background-color:rgb(37, 39, 42);
     width: 65%;
     min-height: 250px;
     display: flex;
     justify-content: space-between;
-    align-items: start;
     border-top: 2px solid #8ea1e1;
 }
 #footer-down a{
     color: rgb(255, 255, 255);
-    /* padding: 0 25px; */
     margin-top: 50px;
 }
 #footer-down a img{
