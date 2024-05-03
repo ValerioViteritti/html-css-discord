@@ -6,11 +6,9 @@
     text-decoration: none;
     list-style-type: none;
 }
-
 .color-discord{
     color: #8ea1e1;
 }
-
 body{
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;;
 }
@@ -20,7 +18,6 @@ body{
     line-height: 40px;
 }
 /* Regole dell'header */
-
 header{
     background-image: url(../img/jumbo.png);
     width: 100%;
@@ -29,10 +26,8 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 }
 #header-nav{
-    /* background-color: #ADD8E6; */
     height: 100px;
     display: flex;
     justify-content: center;
@@ -40,22 +35,18 @@ header{
     padding-top: 20px;
 }
 #nav{
-    /* background-color: #DAA520; */
     width: 70%;
     line-height: 50px;
     display: flex;
-    border: 1px dashed black;
     justify-content: space-between;
     height: 50px;
 }
 #logo{
     width: 10%;
-    border: 1px dashed black;
     padding-left: 5px;
 }
 #nav div{
     width: 80%;
-    border: 1px dashed black;
     display: flex;
     justify-content: center;
 }
@@ -64,29 +55,18 @@ header{
     gap: 60px;
     font-size: 20px;
 }
-ul li{
-    /* padding: 0 5px; */
-
-    
-}
-
 li a{
     color: rgb(255, 255, 255);
-    
 }
-
 .button-form{
     text-align: center;
     border-radius: 40px;
-    border: 1px dashed black;
     background-color: white;
     color: black;
     width: auto;
     padding: 0 15px;
     font-size: 18px;
 }
-
-
 #header-sub-nav{
     /* background-color: darkblue; */
     height: 350px;
@@ -98,7 +78,6 @@ li a{
     /* background-color: #EE82EE; */
     width: 45%;
     min-height: 250px;
-    border: 1px dashed black;
     text-align: center;
     color: white;
     font-size: 30px;
@@ -110,24 +89,13 @@ h1{
 }
 
 #header-sub-button{
-    /* background-color: darkblue; */
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-
 #button-header{
-    /* height: 100px;
-    width: 30%; */
-
-    /* border: 1px dashed black;
-    display: flex;
-    justify-content: center;
-    align-items: center; */
     width: 45%;
-    border: 1px dashed black;
     color: white;
     line-height: 80px;
     display: flex;
@@ -135,35 +103,19 @@ h1{
     align-items: center;
     gap: 30px;
     height: 80px;
-    
 }
-
-    
 .xxx{
     font-size: 30px;
     padding: 0 40px;
 }
-
 #negative{
     color: white;
     background-color: rgb(37, 37, 37);
 }
-
-
-
-
-
-
-
 a i{
     color: black;
     font-size: 22px;
 }
-
-
-
-
-
 /* Regole del main */
 .section-main{
     background-color: rgb(255, 255, 255);
@@ -174,31 +126,20 @@ a i{
     gap: 160px;
 }
 .big-blue{
-    /* background-color: #1E90FF; */
     height: 550px;
     width: 40%;
-    border: 1px dashed black;
-    /* display: flex;
-    justify-content: start; */
-    /* padding-left: 50px; */
     padding-bottom: 50px;
 }
 
 .big-blue img{
-    height: 120%;
+    height: 130%;
 }
 .little-pink{
-    /* background-color: #FDBEC3; */
     min-height: 400px;
     width: 21%;
-    border: 1px dashed black;
     font-size: 48px;
     padding-top: 80px;
 }
-
-
-
-
 .section-main-cnt{
     background-color: #D3D3D3;
     height: 1000px;
@@ -209,7 +150,7 @@ a i{
 }
 .section-main-down{
     background-color: #D3D3D3;
-    height: 1800px;
+    height: 2000px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -218,17 +159,13 @@ a i{
     font-size: 48px;
     padding-top: 200px;
 }
-
-
 .stars-zone{
     /* background-color: #228B22; */
     height: 1550px;
     width: 70%;
-    border: 1px dashed black;
 }
 #image-big{
     width: 100%;
-    
 }
 .container {
     position: relative;
@@ -239,34 +176,28 @@ a i{
 #text-stars{
     font-size: 44px;
     position: absolute;
-    top: 28%;
+    top: 18%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 #stars{
     width: 48%;
-    /* position: absolute; */
 }
-
 .lol{
     width: 400px;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 #got{
     width: 100%;
-    border: 1px dashed black;
     line-height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 80px;
 }
-
 #got a{
     width: 360px;
     background-color: #8ea1e1;
@@ -275,13 +206,7 @@ a i{
 #arrow{
     color: white;
     font-size: 22px;
-
 }
-
-
-
-
-
 /* Regole del footer */
 .section-footer-up{
     background-color: rgb(35, 39, 42);
@@ -295,24 +220,43 @@ a i{
     flex-basis: auto;
 }
 #footer-section{
-    /* background-color: aliceblue; */
     width: 65%;
     min-height: 320px;
     display: flex;
-    /* border-bottom: 2px solid #628bf7; */
 }
 #footer-pink{
-    /* background-color: #F08080; */
     width: 32%;
-    border: 1px dashed black;
     color: white;
 }
-
-i{
+h3{
+    font-size: 48px;
+    width: 70%;
+    padding-bottom: 30px;
+}
+#language{
+    display: flex;
+    gap: 5px;
+}
+#footer-pink img{
+    height: 24px;
+}
+#footer-pink span{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+#footer-pink i{
+    font-size: 16px;
+} 
+#logos{
+    display: flex;
+    gap: 40px;
+    padding-top: 30px;
+}
+#logos i{
     color: white;
+    font-size: 26px;
 }
 .footer-blue{
-    /* background-color: #20B2AA; */
     width: 17%;
     border: 1px dashed white;
     display: flex;
@@ -321,7 +265,6 @@ i{
     line-height: 50px;
     
 }
-
 .footer-blue a{
     color: white;
 }
@@ -334,7 +277,6 @@ a.color-discord{
     display: flex;
     justify-content: center;
     align-items: end;
-    
 }
 #footer-down{
     background-color:rgb(37, 39, 42);
@@ -344,22 +286,16 @@ a.color-discord{
     justify-content: space-between;
     align-items: start;
     border-top: 2px solid #8ea1e1;
-
-    
 }
 #footer-down a{
     color: rgb(255, 255, 255);
-    border: 1px dashed black;
     /* padding: 0 25px; */
     margin-top: 50px;
 }
-
 #footer-down a img{
     height: 50px;
 }
 #gots{
-    
-    border: 1px dashed black;
     line-height: 80px;
     display: flex;
     justify-content: center;
