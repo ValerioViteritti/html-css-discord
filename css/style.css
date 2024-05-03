@@ -1,0 +1,198 @@
+/* Regole Generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.color-discord{
+    color: #628bf7;
+}
+/* Regole dell'header */
+
+header{
+    background-image: url(../img/jumbo.png);
+    width: 100%;
+    background-size: cover;
+    
+}
+#header-nav{
+    /* background-color: #ADD8E6; */
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav{
+    /* background-color: #DAA520; */
+    width: 70%;
+    line-height: 25px;
+    display: flex;
+    border: 1px dashed black;
+}
+#logo{
+    width: 20%;
+    border: 1px dashed black;
+    padding-left: 5px;
+}
+#nav div{
+    width: 70%;
+    border: 1px dashed black;
+    display: flex;
+    justify-content: center;
+}
+#nav ul{
+    display: flex;
+}
+ul li{
+    padding: 0 5px;  
+}
+#nav a{
+    color: black; 
+}
+#login{
+    width: 20%;
+    border: 1px dashed black;
+    text-align: right;
+    padding-right: 5px;
+}
+#header-sub-nav{
+    /* background-color: darkblue; */
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header-sub-nav div{
+    /* background-color: #EE82EE; */
+    width: 50%;
+    min-height: 250px;
+    border: 1px dashed black;
+}
+/* Regole del main */
+.section-main{
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.big-blue{
+    /* background-color: #1E90FF; */
+    height: 300px;
+    width: 40%;
+    border: 1px dashed black;
+}
+
+.big-blue img{
+    height: 100%;
+}
+.little-pink{
+    /* background-color: #FDBEC3; */
+    min-height: 300px;
+    width: 25%;
+    border: 1px dashed black;
+}
+.section-main-cnt{
+    background-color: #D3D3D3;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section-main-down{
+    background-color: #D3D3D3;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+}
+.section-main-down div{
+    /* background-color: #228B22; */
+    height: 550px;
+    width: 65%;
+    border: 1px dashed black;
+}
+#image-big{
+    width: 100%;
+    
+}
+.container {
+    position: relative;
+    text-align: center;
+}
+#text-stars{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#stars{
+    width: 50%;
+    /* position: absolute; */
+}
+
+
+
+
+/* Regole del footer */
+.section-footer-up{
+    background-color: rgb(35, 39, 42);
+    height: 350px;
+    border-bottom: 2px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 5px;
+}
+#footer-section{
+    /* background-color: aliceblue; */
+    width: 65%;
+    min-height: 320px;
+    display: flex;
+}
+#footer-pink{
+    /* background-color: #F08080; */
+    width: 32%;
+    border: 1px dashed black;
+    color: white;
+}
+
+i{
+    color: white;
+}
+.footer-blue{
+    background-color: #20B2AA;
+    width: 17%;
+    border: 1px dashed white;
+    display: flex;
+    flex-direction: column;
+}
+.section-footer-down{
+    background-color: rgb(37, 37, 37);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+#footer-down{
+    background-color:#7CF2D5;
+    width: 65%;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer-down a{
+    color: black;
+    background-color: pink;
+    border: 1px dashed black;
+    padding: 0 5px;
+}
