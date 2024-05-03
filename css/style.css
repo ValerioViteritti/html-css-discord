@@ -127,11 +127,8 @@ h1{
     justify-content: center;
     align-items: center; */
     width: 45%;
-    
     border: 1px dashed black;
-    
     color: white;
-    /* font-size: 30px; */
     line-height: 80px;
     display: flex;
     justify-content: center;
@@ -160,7 +157,7 @@ h1{
 
 a i{
     color: black;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 
@@ -195,7 +192,7 @@ a i{
     min-height: 400px;
     width: 21%;
     border: 1px dashed black;
-    font-size: 44px;
+    font-size: 48px;
     padding-top: 80px;
 }
 
@@ -212,20 +209,21 @@ a i{
 }
 .section-main-down{
     background-color: #D3D3D3;
-    height: 850px;
+    height: 1800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    fon
-    
-
+    font-size: 48px;
+    padding-top: 200px;
 }
-.section-main-down div{
+
+
+.stars-zone{
     /* background-color: #228B22; */
-    height: 550px;
-    width: 75%;
+    height: 1550px;
+    width: 70%;
     border: 1px dashed black;
 }
 #image-big{
@@ -235,18 +233,51 @@ a i{
 .container {
     position: relative;
     text-align: center;
+    height: 600px;
+    width: 70%;
 }
 #text-stars{
+    font-size: 44px;
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#stars{
+    width: 48%;
+    /* position: absolute; */
+}
+
+.lol{
+    width: 400px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-#stars{
-    width: 50%;
-    /* position: absolute; */
+#got{
+    width: 100%;
+    border: 1px dashed black;
+    line-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
 }
+
+#got a{
+    width: 360px;
+    background-color: #628bf7;
+    color: white;
+}
+#arrow{
+    color: white;
+    font-size: 22px;
+
+}
+
 
 
 
