@@ -8,7 +8,7 @@
 }
 
 .color-discord{
-    color: #628bf7;
+    color: #8ea1e1;
 }
 
 body{
@@ -269,7 +269,7 @@ a i{
 
 #got a{
     width: 360px;
-    background-color: #628bf7;
+    background-color: #8ea1e1;
     color: white;
 }
 #arrow{
@@ -285,13 +285,13 @@ a i{
 /* Regole del footer */
 .section-footer-up{
     background-color: rgb(35, 39, 42);
-    height: 450px;
-    border-bottom: 2px solid grey;
+    height: 950px;
+    
     display: flex;
     justify-content: center;
     align-items: flex-start;
     padding-top: 5px;
-    padding-top: 50px;
+    padding-top: 150px;
     flex-basis: auto;
 }
 #footer-section{
@@ -299,6 +299,7 @@ a i{
     width: 65%;
     min-height: 320px;
     display: flex;
+    /* border-bottom: 2px solid #628bf7; */
 }
 #footer-pink{
     /* background-color: #F08080; */
@@ -316,32 +317,55 @@ i{
     border: 1px dashed white;
     display: flex;
     flex-direction: column;
+    font-size: 22px;
+    line-height: 50px;
+    
 }
 
 .footer-blue a{
     color: white;
 }
 a.color-discord{
-    color: #628bf7;
+    color: #8ea1e1;
 }
 .section-footer-down{
-    background-color: rgb(37, 37, 37);
-    height: 70px;
+    background-color: rgb(37, 39, 42);
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: end;
+    
 }
 #footer-down{
-    background-color:#7CF2D5;
+    background-color:rgb(37, 39, 42);
     width: 65%;
-    min-height: 50px;
+    min-height: 250px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
+    border-top: 2px solid #8ea1e1;
+
+    
 }
 #footer-down a{
-    color: black;
-    background-color: pink;
+    color: rgb(255, 255, 255);
     border: 1px dashed black;
-    padding: 0 5px;
+    /* padding: 0 25px; */
+    margin-top: 50px;
+}
+
+#footer-down a img{
+    height: 50px;
+}
+#gots{
+    
+    border: 1px dashed black;
+    line-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 8%;
+    background-color: #8ea1e1;
+    font-size: 22px;
 }
